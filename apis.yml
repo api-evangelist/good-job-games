@@ -1,8 +1,25 @@
 aid: good-job-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-job-games.png
 name: Good Job Games
-description: Good Job Games is a company surfaced as a portfolio company of menlo-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Good Job Games is a global mobile gaming company founded in 2017 that designs, develops,
+  and operates puzzle and match-3 titles for iOS and Android, including Wonder Blast and Match Villains.
+  The studio publishes its games through the Apple App Store and Google Play rather than a developer
+  API program, and its public web surface is limited to its marketing site, games catalog, careers
+  ("Life at Good Job Games") pages, and legal policies. It was surfaced as a portfolio company of
+  Menlo Ventures and profiled in the API Evangelist network. No public developer API, SDK, documentation,
+  or API reference was found during enrichment; the artifacts captured here reflect its domain security
+  posture and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/good-job-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobile Games
+- Gaming
+- Mobile
+- Puzzle Games
+- Entertainment
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/good-job-games-domain-security.yml
 - type: Website
   url: https://goodjobgames.com
+- type: TermsOfService
+  url: https://goodjobgames.com/terms/en
+- type: PrivacyPolicy
+  url: https://goodjobgames.com/privacy/en
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
